@@ -4,6 +4,7 @@ class Mapnik071 < Formula
   homepage 'http://www.mapnik.org/'
   url 'http://download.berlios.de/mapnik/mapnik-0.7.1.tar.gz'
   sha1 '5fc9152574ac72c4063af9a4716739c793ec7b5b'
+  revision 1
 
   depends_on 'pkg-config' => :build
   depends_on 'scons' => :build
